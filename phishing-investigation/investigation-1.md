@@ -10,10 +10,10 @@
 This email appears suspicious because it claims to be a new voicemail from an unknown number and includes an attachment that prompts the user to download a file. The Office 365 logo is used to make the email look legitimate, and the attachment ultimately leads to a page disguised as an Outlook login, which is a common phishing tactic to capture credentials.
 
 ## Header Analysis
-- SPF result:
-- DKIM result:
-- DMARC result:
-- Sending IP:
+- SPF result: Unknown / not provided in sample
+- DKIM result: Unknown / not provided in sample
+- DMARC result: Unknown / not provided in sample
+- Sending IP: Unknown / spoofed
 
 ## URL & Attachment Analysis
 | Indicator | Type (URL/IP/Domain) | Reputation |
