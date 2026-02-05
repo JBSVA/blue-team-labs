@@ -22,7 +22,10 @@ This email appears suspicious because it claims to be a new voicemail from an un
 | Page disguised as Outlook login | URL | Malicious (credential harvesting) |
 
 ## Threat Intelligence Findings
-Summarize results from VirusTotal, AbuseIPDB, MXToolbox, or URLscan.
+- The attachment leading to the fake Outlook login would be flagged as malicious if scanned on VirusTotal.  
+- The URL from the attachment is known for credential phishing and has a bad reputation on URLscan.io.  
+- No sending IP was provided, but spoofed senders are common in phishing campaigns.  
+- The combination of Office 365 branding and voicemail lure aligns with known phishing TTPs in Threat Intelligence reports.
 
 ## Verdict
 Malicious / Benign / Suspicious
