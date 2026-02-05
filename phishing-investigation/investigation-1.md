@@ -16,9 +16,10 @@ This email appears suspicious because it claims to be a new voicemail from an un
 - Sending IP: Unknown / spoofed
 
 ## URL & Attachment Analysis
-| Indicator | Type (URL/IP/Domain) | Reputation |
-|---------|----------------------|------------|
-|         |                      |            |
+| Indicator | Type | Reputation |
+|-----------|------|------------|
+| Attachment prompting download of voice message | File | Malicious (leads to credential phishing page) |
+| Page disguised as Outlook login | URL | Malicious (credential harvesting) |
 
 ## Threat Intelligence Findings
 Summarize results from VirusTotal, AbuseIPDB, MXToolbox, or URLscan.
