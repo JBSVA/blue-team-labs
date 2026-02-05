@@ -2,6 +2,7 @@
 
 ## Objective
 Analyze a suspicious email to determine whether it is malicious and recommend appropriate response actions following SOC procedures.
+*Note: This investigation uses a public phishing email sample (personal info redacted) to simulate a real Tier 1 SOC workflow.*
 
 ## Tools Used
 - VirusTotal
