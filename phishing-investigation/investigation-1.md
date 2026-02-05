@@ -28,9 +28,9 @@ This email appears suspicious because it claims to be a new voicemail from an un
 - The combination of Office 365 branding and voicemail lure aligns with known phishing TTPs in Threat Intelligence reports.
 
 ## Verdict
-Malicious / Benign / Suspicious
+Malicious
 
 ## Recommended Response Actions
-- User notification:
-- Blocking actions:
-- Escalation required:
+- User notification: Advise the user not to open the attachment or click any links, and confirm no credentials were entered.  
+- Blocking actions: Block the malicious URL and attachment at the email gateway and endpoint security solutions.  
+- Escalation required: Escalate to Tier 2 SOC analyst or Incident Response team for further investigation and reporting.
