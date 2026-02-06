@@ -1,15 +1,24 @@
 # Blue Team Labs - SOC Analyst Portfolio
 
-This repository contains hands-on blue team and SOC analyst projects focused on:
-- Alert triage
-- Phishing investigation
-- Log analysis
-- Incident documentation
-- MITRE ATT&CK mapping
+This repository contains hands-on blue team and SOC analyst projects designed to simulate real-world SOC workflows. Projects focus on:  
 
-All projects are designed to simulate real Tier 1 SOC analyst workflows using browser based and open source tools.
+- Alert triage and investigation  
+- Phishing analysis  
+- Log review and incident documentation  
+- MITRE ATT&CK mapping  
+- Browser-based threat hunting and OSINT enrichment  
+
+All labs are performed using browser-based and open-source tools to demonstrate practical SOC skills.
+
+---
 
 ## Projects
-1. Phishing Investigation Lab
-2. SOC Alert Triage (Simulated)
-3. Detection Logic & MITRE ATT&CK Mapping
+1. **Phishing Investigation Lab** – Analyze and document phishing emails, identify indicators of compromise, and recommend response actions.  
+2. **SOC Alert Triage (Simulated)** – Investigate SIEM-generated alerts, validate true/false positives, and escalate confirmed threats.  
+3. **Browser-Based Threat Hunting** – Proactively investigate suspicious domains, IPs, and URLs using OSINT, enrich IOCs, and assess risk.
+
+---
+
+## Structure
+Each project includes a README and a detailed case file documenting methodology, findings, and recommended actions.
+
